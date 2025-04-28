@@ -73,8 +73,7 @@ button{
 
 .Logo{
     display: flex;
-    justify-self: center;
-    align-items: center;
+    margin: auto;
     margin-top: 30px;
     margin-bottom: 0;
 
