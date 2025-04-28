@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   
+    <link rel="stylesheet" href="index.css">
+    
+   
+    <title>Скидка 20% на Dr.Web Security Space (для Android)</title>
+</head>
+
+<body>
+<div class="content">
+<header>
+    <img src="./images/Logo.svg" alt="Не удалось загрузить изображение" class="Logo">
+</header>
+<div class="first-screen">
+   <div class="title-block">
+        <h1>Защити свой цифровой мир</h1>
+        <h2 class="grey-text">с Dr.Web Security Space для Android</h2>
+    </div>
+    <button id="scroll-button">Купить со скидкой</button>
+    <div class="image-block">
+        <img src="./images/DiscountImg.svg" alt="Не удалось загрузить изображение" class="discount-img">
+        <div class="grey-block"></div>
+    </div>
+</div>
+
+<div class="product-block" id="product">
+    <div class="product-text-block">
+        <h3 class="green-text">С 1 по 15 февраля 2023 года<br></h3>
+
+            <div>
+                <h2>Dr.Web Security Space для Android</h2>
+                <div class="line-flex">
+                    <div class="bullet">2 устройства</div><div class="bullet">12 месяцев</div>
+                </div>
+                <p>Сохранит в безопасности важные документы, 
+                онлайн-банкинг, личные переписки, доступ к
+                социальным сетям и вашим контактам
+            </div>
+        <a href="https://www.drweb.ru/" class="green-text" >Условия акции</a>    
+    </div>
+    <div class="pay-card">
+        <img src="./images/SecuritySpace-Mobile.svg" alt="Не удалось загрузить изображение" class="security-image">
+        <div>
+        <h2 id="pay-card_title">Dr.Web Security Space</h2>
+        <p class="grey-text">
+            Защита мобильных устройств <br/> 
+            и планшетов
+        </p>
+    </div>
+        <div class="price-string"><h3 id="old-price">980 ₽</h3><p>без НДС</p></div>
+        <div class="new-price">784 ₽</div>
+        <button>Купить со скидкой</button>
+    </div> 
+</div>   
+<div class="second-screan">
+    <div class="bullet-card">
+        <div class="bullet-card_text">
+            <h2>Защитит гаджеты:</h2>
+            <p class="grey-text"> 
+                Смартфоны <br/> 
+                Планшеты <br/>
+                Smart-TV <br/>
+                Игровые консоли
+            </p>
+        </div>
+        <img src="./images/PhoneAndGamepad.svg" alt="Не удалось загрузить изображение" class="bullet-card_img">
+    </div>
+
+    <div>
+    <div class="bullet-card">
+        <div class="bullet-card_text">
+            <h2>Компоненты защиты:</h2>
+            <p class="grey-text"> 
+                Родительский контроль <br/>
+                Брандмауэр <br/>
+                Фильтр звонков и СМС<br/> 
+                Аудитор безопасности <br/>
+                Антивор <br/>
+                URL-фильтр <br/>
+                Антивирус
+            </p>
+        </div>
+        <img src="./images/Gears.svg" alt="Не удалось загрузить изображение" class="bullet-card_img">
+    </div>
+</div> 
+</div>
+</div>
+<footer>  
+    <div class="icon-string">
+        <img src="./images/icon.svg" alt="Не удалось загрузить изображение">
+        <p>© «Доктор Веб» 2003–2023</p>
+    </div>
+    <p>«Доктор Веб» — российский производитель антивирусных средств защиты информации под маркой Dr.Web.</p>
+</footer>
+</body>
+
+<script>
+     const but = document.getElementById("scroll-button");
+     const prod = document.getElementById("product");
+
+     but.addEventListener('click', e => {
+        prod.scrollIntoView({
+            block: 'nearest', 
+            behavior: 'smooth'
+        })
+     })
+</script>
+</html>
