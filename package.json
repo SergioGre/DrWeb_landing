@@ -1,0 +1,19 @@
+{
+  "name": "drweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioGre/DrWeb_landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergioGre/DrWeb_landing/issues"
+  },
+  "homepage": "https://github.com/SergioGre/DrWeb_landing#readme",
+  "description": ""
+}
